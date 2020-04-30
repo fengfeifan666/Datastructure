@@ -32,22 +32,22 @@ public interface BinaryTree {
     /**
      * 前序递归遍历
      */
-    public void preOredTraverse();
+    public void preOrderTraverse();
 
     /**
      * 递归中序遍历
      */
-    public void inOredTraverse();
+    public void inOrderTraverse();
     /**
      * 递归后序遍历
      */
-    public void postOredTraverse();
+    public void postOrderTraverse();
 
     /**
      * 后序遍历递归操作
      * @param node 树根结点
      */
-    public void postOredTraverse(Node node);
+    public void postOrderTraverse(Node node);
 
     /**
      * 中序遍历非递归
